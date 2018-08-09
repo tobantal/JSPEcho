@@ -18,9 +18,9 @@ if (authors != null) {
 <h3>You have selected author(s):</h3>
 <ul>
 <%
-for (int i = 0; i < authors.length; ++i) {
+for (String author : authors) {
 %>
-<li><%= authors[i] %></li>
+<li><%= author %></li>
 <%
 }
 %>
